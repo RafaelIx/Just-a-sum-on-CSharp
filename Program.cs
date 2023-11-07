@@ -25,15 +25,15 @@
 
             string letra = Console.ReadLine();
             if (letra == "S" || letra == "s")
-            { goto inicio;}
+            { goto inicio; }
 
             else if (letra == "N" || letra == "n")
             { Console.WriteLine("Vale, chaito");
-                Environment.Exit(0);}
+                Environment.Exit(0); }
 
             else
             { Console.WriteLine("Si o no wey");
-                goto solicitud;}
+                goto solicitud; }
         }
     }
 }
