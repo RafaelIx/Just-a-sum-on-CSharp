@@ -16,7 +16,6 @@
             int numero1 = int.Parse(dato1);
             int numero2 = int.Parse(dato2);
                     
-                        
             // Respuesta
             Console.WriteLine($"El resultado es {numero1 + numero2}");
             Console.WriteLine("Quieres hacer otra suma? \nS/N");
@@ -26,18 +25,15 @@
 
             string letra = Console.ReadLine();
             if (letra == "S" || letra == "s")
-            { goto inicio;
-            }
+            { goto inicio;}
 
             else if (letra == "N" || letra == "n")
             { Console.WriteLine("Vale, chaito");
-                Environment.Exit(0);
-            }
+                Environment.Exit(0);}
 
             else
-            { Console.WriteLine("Entrada invalida");
-                goto solicitud;
-            }
+            { Console.WriteLine("Si o no wey");
+                goto solicitud;}
         }
     }
 }
